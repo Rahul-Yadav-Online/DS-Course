@@ -33,8 +33,7 @@ int binarySearch(const std::vector<int> arr, int target){
 }
 
 int main(){
-    std::vector<int> inp_arr={1,2,3,4};
+    std::vector<int> inp_arr={1,2,2,3,4,5};
     std::cout << "\nResult : \n";
-    std::cout << binarySearch(inp_arr, -2) <<std::endl;
-      
+    std::cout << binarySearch(inp_arr, 2) <<std::endl;
 }
